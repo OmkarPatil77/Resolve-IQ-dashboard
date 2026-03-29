@@ -105,7 +105,7 @@ const ComplaintDetail = () => {
 
         {/* Right */}
         <div className="space-y-4">
-          <div className="bg-card border border-border rounded-xl p-5 space-y-4">
+          <div className="bg-green-100 border border-border rounded-xl p-5 space-y-4">
             <h3 className="text-sm font-semibold text-foreground">🧬 Complaint DNA</h3>
             <div className="space-y-3 text-sm">
               <Row label="Category" value={complaint.category} />
